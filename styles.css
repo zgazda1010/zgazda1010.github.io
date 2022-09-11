@@ -1,0 +1,80 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #ff0099;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: underline solid rgb(255, 0, 153);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+/*
+.logo {
+  position: fixed;
+  padding: 0px;
+  background: transparent;
+  overflow: hidden;
+  z-index: 1;
+  margin: 0 auto;
+  }
+*/
+
+.logo {
+  position: fixed;
+  padding: 0px;
+  background: url(assets/logo.svg);
+  }
+
+h1{
+  padding: 30px;
+ }
+    
+h2{
+  color: hotpink;
+  font-weight: 700;
+  padding: 30px;
+ }
+
+#wiki{
+    color: black;
+    text-align: center;
+    font-weight: 700;
+}
+
+#separator{
+    text-align: center;
+    font-weight: 700;
+}
+
+#text1{
+    font-family: "consolas";
+    padding: 30px;
+}
+
+text2{
+    font-size: 11px; 
+}
